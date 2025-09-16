@@ -1,3 +1,4 @@
+# Cibely Cristiny e Luiz Gustavo
 
 estoque_atual = {
     "canetas": 150,

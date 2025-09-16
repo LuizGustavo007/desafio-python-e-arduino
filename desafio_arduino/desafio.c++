@@ -53,7 +53,7 @@ void setup() {
 
 void loop() {
   if (digitalRead(PINO_BOTAO_EMERGENCIA) == LOW) {
-    delay(50); // debounce
+    delay(50); 
     if (digitalRead(PINO_BOTAO_EMERGENCIA) == LOW) {
       modoManualAtivo = !modoManualAtivo;
       tone(PINO_BUZZER_ALERTA, 1000, 150);
